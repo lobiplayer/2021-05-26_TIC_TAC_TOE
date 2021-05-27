@@ -1,0 +1,38 @@
+
+body {
+    text-align: center;
+}
+p, h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tile {
+    background-color: aquamarine;
+    position: relative;
+    margin: 3px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    justify-content: center;
+    vertical-align:middle;
+     
+}
+
+.tile p {
+  position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+padding: 0;
+margin: 0;
+font-size: 90px; 
+}
+
+#turnx, #turno {
+    font-size: 40px;
+    display: inline;
+}
+
+#winnermessage {
+    font-size: 40px;
+}
